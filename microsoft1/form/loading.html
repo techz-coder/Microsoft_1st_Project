@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error</title>
+    <link rel="stylesheet" href="error-popup.css">
+</head>
+
+<body oncontextmenu="return false;">
+    <section class="one">
+        <div class="loading-img">
+            <img src="img/loading.gif" alt="">
+        </div>
+    </section>
+
+    <section class="two" style="display: none;">
+        <div class="error-img">
+            <img src="img/error.jpg" alt="error">
+        </div>
+        <div class="error-content">
+            <p style="font-size: 15px; color:#D56D77; margin-top:3rem;">ERRORX0006290........... We are unable to
+                process your request
+                right now due to unexpected error.. Microsoft Office services are stopped on the machine.
+                Unable to run the services again So kindly contact Microsoft office technician to fix the error. and
+                complete the Billing. </p>
+            <p style="font-size: 15px; text-align: center;">Microsoft Live Technician <br> +1 888 899 2040 <br> or <br>
+                +1 239 214 7062</p>
+        </div>
+    </section>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+
+
+
+
+        // function loading() {
+        //     document.querySelectorAll(".bar").forEach(function (current) {
+        //         let startWidth = 0;
+        //         const endWidth = current.dataset.size;
+
+        //         /* 
+        //   setInterval() time sholud be set as trasition time / 100. 
+        //   In our case, 2 seconds / 100 = 20 milliseconds. 
+        //   */
+        //         const interval = setInterval(frame, 20);
+
+        //         function frame() {
+        //             if (startWidth >= endWidth) {
+        //                 clearInterval(interval);
+        //             } else {
+        //                 startWidth++;
+        //                 current.style.width = `${endWidth}%`;
+        //                 current.firstElementChild.innerText = `${startWidth}%`;
+        //             }
+        //         }
+        //     });
+        // }
+
+        // setTimeout(loading, 1000);
+        // window.addEventListener('contextmenu', function (e) {
+        //     document.body;
+        //     e.preventDefault();
+        // }, false);
+
+
+        $(window).on('load', function () {
+            $(".one").delay(2000).fadeIn(function(){
+                $(".one").hide();
+            })
+            $(".two").delay(2500).fadeIn();
+        })
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+        integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

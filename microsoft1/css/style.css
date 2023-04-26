@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu img {
+    padding: 1rem;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu ul li {
+    padding: 1rem;
+}
+
+.reg {
+    display: flex;
+    padding: 1rem;
+}
+
+.reg a {
+
+    padding: 6px;
+}
+
+.cards {
+    display: flex;
+    margin: 2rem 4rem;
+    justify-content: space-around;
+}
+
+.mini-card {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.mini-card {
+    word-spacing: 0.3em;
+    letter-spacing: 0.01em;
+}
+
+.mini-card h2{
+    font-size: 17px;
+}
+.mini-card h6 {
+    font-size: 16px;
+    font-weight: 100;
+    margin: 10px 0 10px 0;
+}
+
+.mini-card h4 a {
+    color: #7FCCF7;
+    font-size: 15px;
+}
+.cards-home2{
+    display: flex;
+    justify-content: space-around;
+}
+.icons{
+    display: flex;
+    padding: 1rem;
+}
+.icons i{
+    color:white;
+}
+.icons2{
+    display: flex;
+    padding-left: 1rem;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.facebook{
+    background-color: #425DAA;
+    font-size: 20px;
+    width: 30px;
+    padding: 5px;
+    text-align: center;
+    height: 30px;
+}
+.twitter{
+    background-color: #54ACEE;
+    font-size: 20px;
+    width: 30px;
+    padding: 5px;
+    margin-left: 0.8rem;
+    height: 30px;
+    text-align: center;
+}
+.linked-in{
+    background-color: #1377B4;
+    padding: 5px;
+    margin-left: 0.8rem;
+    font-size: 20px;
+    width: 30px;
+    margin-left: 0.8rem;
+    height: 30px;
+}
+.youtube{
+    background-color: #EB2327;
+    font-size: 20px;
+    margin-left: 0.8rem;
+    padding: 5px;
+    margin-left: 0.8rem;
+    width: 30px;
+    height: 30px;
+}
+.footer{
+    display: flex;
+    background-color: #C7C7C7;
+    padding:0 6rem;
+    border-top: 5px solid gray;
+    justify-content: space-around;
+}
+.footer div ul li{
+    padding: 0.8rem;
+    font-size: 13px;
+    list-style: none;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+#top-footer{
+    font-weight:700;
+}

@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.menu a {
+    text-decoration: none;
+    color: #000;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu img {
+    padding: 1rem;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu ul li {
+    padding: 1rem;
+}
+
+.reg {
+    display: flex;
+    padding: 1rem;
+}
+
+.reg a {
+
+    padding: 6px;
+}
+
+
+/* multi step form start */
+
+
+
+.form-container {
+    background: rgb(255, 255, 255, 0.8);
+    margin: 0rem 13rem;
+    padding: 1rem;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.form-box {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+.form-box-dob {
+    display: flex;
+    flex-direction: column;
+    margin: 0.2rem;
+}
+
+.form-box-dob input {
+    height: 2rem;
+}
+
+.form-box-add {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0.1rem;
+}
+
+.form-group {
+    display: flex;
+    margin: 0.1rem 0;
+    flex-direction: column;
+}
+
+.form-group input {
+    width: 25rem;
+    height: 2rem;
+}
+
+.form-group-last {
+    display: flex;
+    margin: 0 0.5rem;
+    flex-direction: column;
+}
+
+.form-group-last input,
+.form-group-last select {
+    width: 12rem;
+    height: 2rem;
+}
+
+.form-btn {
+    display: flex;
+    flex-direction: row;
+    margin: 0.5rem 0rem 0rem 54em;
+    padding: 0.6rem 0rem 3rem;
+}
+
+.form-btn button {
+    height: 3rem;
+    width: 6rem;
+    font-size: 1rem;
+}
+
+.form-btn1 {
+    display: flex;
+    flex-direction: row;
+    margin: 0.5rem 0rem 0rem 54em;
+    padding: 0.6rem 0rem 3rem;
+}
+
+.form-btn1 button {
+    height: 3rem;
+    width: 6rem;
+    font-size: 1rem;
+    background-color: #2184BE;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+
+
+/* multi step form end */
+
+/* multi step form start2  */
+
+.form-box2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-group2 {
+    height: 7rem;
+    width: 12rem;
+    border: 1px solid #AAAAAA;
+    background-color: #fff;
+    margin: 0.2rem;
+}
+
+.form-group2 h6 {
+    font-size: 15px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.form-group2 input {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin: 1rem 0rem 0.5rem 5rem;
+
+}
+
+
+.terms{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*  */
+
+
+
+/* multi step form 3 ending  */
+
+.btn-theme {
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+
+.footer {
+    display: flex;
+    background-color: #C7C7C7;
+    padding: 0 6rem;
+    border-top: 5px solid gray;
+    justify-content: space-around;
+}
+
+.footer div ul li {
+    padding: 0.8rem;
+    font-size: 13px;
+    list-style: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+#top-footer {
+    font-weight: 700;
+}
